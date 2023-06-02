@@ -1,0 +1,21 @@
+{
+  "name": "autoply-engine",
+  "version": "1.0.0",
+  "description": "Aggregator for popular job application formats, enabling auto-filling of applicant data.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/main.js",
+    "dev": "tsc -w & nodemon build/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "web-search": "^0.6.2"
+  }
+}
